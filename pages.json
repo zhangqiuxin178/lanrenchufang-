@@ -1,0 +1,113 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+
+		},
+		{
+			"path": "pages/classify/classify",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/collection/collection",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/home/detail/detail",
+			"style": {
+				"navigationBarTitleText": "菜谱详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/home/detail/comments/comments",
+			"style": {
+				"navigationBarTitleText": "用户评论",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/searchList/searchList",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+
+		}
+	    ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#fc0",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/img/icon_home_cook_normal_image.png",
+				"selectedIconPath": "static/img/icon_home_cook_image.png",
+				"text": "首页"
+			}, {
+				"pagePath": "pages/classify/classify",
+				"iconPath": "static/img/icon_home_note_normal_image.png",
+				"selectedIconPath": "static/img/icon_home_note_image.png",
+				"text": "分类"
+			}, {
+				"pagePath": "pages/collection/collection",
+				"iconPath": "static/img/icon_home_mall_normal_image.png",
+				"selectedIconPath": "static/img/icon_home_mall_image.png",
+				"text": "收藏"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/img/icon_home_mine_normal_image.png",
+				"selectedIconPath": "static/img/icon_home_mine_image.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"onReachBottomDistance": 50
+		// "enablePullDownRefresh": true /* 配置可刷新 */
+	},
+	"uniIdRouter": {}
+
+
+}
